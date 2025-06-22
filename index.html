@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkity Link</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>LINKITY LINK</h1>
+            
+            <!-- Headline section -->
+            <div class="headline-link" id="headline-link" style="display: none;">
+                <!-- Headline bookmark will be populated here -->
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="loading" id="loading">loading bookmarks...</div>
+            
+            <!-- Three column layout -->
+            <div class="columns-container" id="columns-container" style="display: none;">
+                <div class="column" id="column-1">
+                    <!-- Column 1 bookmarks -->
+                </div>
+                <div class="column" id="column-2">
+                    <!-- Column 2 bookmarks -->
+                </div>
+                <div class="column" id="column-3">
+                    <!-- Column 3 bookmarks -->
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Created by <a href="https://bradbarrish.com">Brad Barrish</a> and <a href="https://github.com/anthropics/claude-code">Claude Code</a> with heavy inspiration from <a href="https://clone.fyi">clone.fyi</a></p>
+        </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
