@@ -46,13 +46,11 @@ body {
     text-align: center;
     margin-bottom: 30px;
     padding: 20px 0;
-    border-bottom: 3px double #000000;
-    background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
 }
 
 .header h1 {
     font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 700;
     letter-spacing: 8px;
     color: #000000;
@@ -78,7 +76,7 @@ body {
 }
 
 .headline-link a {
-    font-size: 18pt !important;
+    font-size: 24pt !important;
     text-decoration: underline;
     font-weight: bold;
     animation: rainbow 3s linear infinite;
@@ -234,7 +232,7 @@ body {
     }
     
     .header h1 {
-        font-size: 28px;
+        font-size: 48px;
         letter-spacing: 4px;
     }
     
@@ -252,7 +250,7 @@ body {
 
 @media (max-width: 600px) {
     .header h1 {
-        font-size: 24px;
+        font-size: 36px;
         letter-spacing: 2px;
     }
     
