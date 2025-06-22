@@ -76,7 +76,7 @@ body {
 }
 
 .headline-link a {
-    font-size: 24pt !important;
+    font-size: 18pt !important;
     text-decoration: underline;
     font-weight: bold;
     animation: rainbow 3s linear infinite;
