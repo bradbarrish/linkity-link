@@ -239,7 +239,7 @@ body {
     }
     
     .header h1 {
-        font-size: 20pt;
+        font-size: 20pt !important;
         letter-spacing: 1px;
     }
     
@@ -256,8 +256,13 @@ body {
 }
 
 @media (max-width: 600px) {
+    .header h1::before,
+    .header h1::after {
+        display: none;
+    }
+    
     .header h1 {
-        font-size: 16pt;
+        font-size: 12pt !important;
         letter-spacing: 0px;
     }
     
