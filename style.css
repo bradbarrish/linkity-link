@@ -7,6 +7,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
     font-size: 12pt !important;
@@ -49,13 +56,13 @@ body {
 }
 
 .header h1 {
-    font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
-    font-size: 72px;
-    font-weight: 700;
-    letter-spacing: 8px;
+    font-family: 'PressStart2P', monospace !important;
+    font-size: 30pt;
+    font-weight: normal;
+    letter-spacing: 2px;
     color: #000000;
     margin-bottom: 8px;
-    text-shadow: 2px 2px 0px #cccccc;
+    text-transform: uppercase;
     position: relative;
 }
 
@@ -232,8 +239,8 @@ body {
     }
     
     .header h1 {
-        font-size: 48px;
-        letter-spacing: 4px;
+        font-size: 20pt;
+        letter-spacing: 1px;
     }
     
     .visitor-counter {
@@ -250,8 +257,8 @@ body {
 
 @media (max-width: 600px) {
     .header h1 {
-        font-size: 36px;
-        letter-spacing: 2px;
+        font-size: 16pt;
+        letter-spacing: 0px;
     }
     
     .news-item {
