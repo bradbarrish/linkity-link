@@ -23,10 +23,8 @@ async function initializeApp() {
         const loadingEl = document.getElementById('loading');
         if (loadingEl) loadingEl.style.display = 'none';
         
-        // Display headline if available
-        if (headlineBookmarks.length > 0) {
-            displayHeadline(headlineBookmarks[0]);
-        }
+        // Always display the headline
+        displayHeadline(null);
         
         // Display regular bookmarks
         if (regularBookmarks.length > 0) {
@@ -236,7 +234,8 @@ async function fetchBookmarks() {
 
 function displayHeadline(headlineBookmark) {
     const headlineSection = document.getElementById('headline-link');
-    headlineSection.innerHTML = `<a href="${headlineBookmark.link}" target="_blank">${headlineBookmark.title}</a>`;
+    // Always display the specific headline regardless of bookmark data
+    headlineSection.innerHTML = `<a href="https://www.robinsloan.com/lab/platform-reality/" target="_blank">LONG LIVE THE WEB PLATFORM</a>`;
     headlineSection.style.display = 'block';
 }
 
