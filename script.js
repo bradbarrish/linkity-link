@@ -13,15 +13,20 @@ async function initializeApp() {
     try {
         console.log('┌─ Linkity Link initialized ─┐');
         
-        // Fetch bookmarks
-        const regularBookmarks = await fetchBookmarks().catch(() => []);
+        // Fetch headline and regular bookmarks in parallel
+        const [headlineBookmarks, regularBookmarks] = await Promise.all([
+            fetchHeadlineBookmarks().catch(() => []),
+            fetchBookmarks().catch(() => [])
+        ]);
         
         // Hide loading and display content
         const loadingEl = document.getElementById('loading');
         if (loadingEl) loadingEl.style.display = 'none';
         
-        // Always display the headline
-        displayHeadline(null);
+        // Display headline if available
+        if (headlineBookmarks.length > 0) {
+            displayHeadline(headlineBookmarks[0]);
+        }
         
         // Display regular bookmarks
         if (regularBookmarks.length > 0) {
@@ -104,14 +109,82 @@ function showErrorState() {
 }
 
 // Raindrop.io API functions
+async function fetchCollections() {
+    try {
+        const token = RAINDROP_CONFIG.TEST_TOKEN;
+        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/collections`, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error(`Collections request failed: ${response.status} ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        return data.items;
+    } catch (error) {
+        console.error('Error fetching collections:', error);
+        return [];
+    }
+}
+
+async function fetchHeadlineBookmarks() {
+    try {
+        console.log('┌─ Fetching headline bookmarks ─┐');
+        
+        // First get collections to find "Linkity Link Headline"
+        const collections = await fetchCollections();
+        const headlineCollection = collections.find(col => col.title === 'Linkity Link Headline');
+        
+        if (!headlineCollection) {
+            console.log('└─ Linkity Link Headline collection not found ─┘');
+            return [];
+        }
+        
+        const token = RAINDROP_CONFIG.TEST_TOKEN;
+        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${headlineCollection._id}`, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error(`Headline request failed: ${response.status} ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        console.log('└─ Headline bookmarks fetched successfully ─┘');
+        
+        return data.items;
+    } catch (error) {
+        console.error('Error fetching headline bookmarks:', error);
+        return [];
+    }
+}
 
 
 async function fetchBookmarks() {
     try {
-        console.log('┌─ Fetching bookmarks from Clone Clone collection ─┐');
+        console.log('┌─ Fetching bookmarks from Linkity Link collection ─┐');
         
-        // Use default collection
-        const collectionId = RAINDROP_CONFIG.DEFAULT_COLLECTION;
+        // First get collections to find "Linkity Link"
+        const collections = await fetchCollections();
+        const linkityCollection = collections.find(col => col.title === 'Linkity Link');
+        
+        let collectionId;
+        if (!linkityCollection) {
+            console.log('└─ Linkity Link collection not found, using default ─┘');
+            // Fall back to default collection if Linkity Link not found
+            collectionId = RAINDROP_CONFIG.DEFAULT_COLLECTION;
+        } else {
+            collectionId = linkityCollection._id;
+        }
         
         const token = RAINDROP_CONFIG.TEST_TOKEN;
         const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${collectionId}`, {
@@ -155,8 +228,9 @@ async function fetchBookmarks() {
 
 function displayHeadline(headlineBookmark) {
     const headlineSection = document.getElementById('headline-link');
-    // Always display the specific headline regardless of bookmark data
-    headlineSection.innerHTML = `<a href="https://www.robinsloan.com/lab/platform-reality/" target="_blank">LONG LIVE THE WEB PLATFORM</a>`;
+    // Use the description field for headline text, fall back to title if no description
+    const headlineText = headlineBookmark.note || headlineBookmark.excerpt || headlineBookmark.title;
+    headlineSection.innerHTML = `<a href="${headlineBookmark.link}" target="_blank">${headlineText}</a>`;
     headlineSection.style.display = 'block';
 }
 
