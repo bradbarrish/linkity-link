@@ -68,12 +68,12 @@ body {
 
 .header h1::before {
     content: '> ';
-    color: #666666;
+    color: #000000;
 }
 
 .header h1::after {
     content: ' <';
-    color: #666666;
+    color: #000000;
 }
 
 
