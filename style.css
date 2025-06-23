@@ -57,7 +57,7 @@ body {
 
 .header h1 {
     font-family: 'PressStart2P', monospace !important;
-    font-size: 60pt !important;
+    font-size: 30pt !important;
     font-weight: normal;
     letter-spacing: 2px;
     color: #000000;
@@ -239,7 +239,7 @@ body {
     }
     
     .header h1 {
-        font-size: 40pt;
+        font-size: 20pt;
         letter-spacing: 1px;
     }
     
@@ -257,7 +257,7 @@ body {
 
 @media (max-width: 600px) {
     .header h1 {
-        font-size: 32pt;
+        font-size: 16pt;
         letter-spacing: 0px;
     }
     
