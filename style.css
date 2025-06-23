@@ -104,12 +104,6 @@ body {
     margin-bottom: 20px;
 }
 
-.loading {
-    color: #666666;
-    font-size: 12pt !important;
-    text-align: center;
-    padding: 50px 0;
-}
 
 /* Three Column Layout */
 .columns-container {

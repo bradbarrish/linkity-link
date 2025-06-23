@@ -19,9 +19,6 @@ async function initializeApp() {
             fetchBookmarks().catch(() => [])
         ]);
         
-        // Hide loading and display content
-        const loadingEl = document.getElementById('loading');
-        if (loadingEl) loadingEl.style.display = 'none';
         
         // Display headline if available
         if (headlineBookmarks.length > 0) {
@@ -37,8 +34,6 @@ async function initializeApp() {
         
     } catch (error) {
         console.error('App initialization failed:', error);
-        const loadingEl = document.getElementById('loading');
-        if (loadingEl) loadingEl.style.display = 'none';
         showErrorState();
     }
 }
@@ -146,7 +141,7 @@ async function fetchHeadlineBookmarks() {
         }
         
         const token = RAINDROP_CONFIG.TEST_TOKEN;
-        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${headlineCollection._id}`, {
+        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${headlineCollection._id}?sort=-created&perpage=1`, {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -187,7 +182,7 @@ async function fetchBookmarks() {
         }
         
         const token = RAINDROP_CONFIG.TEST_TOKEN;
-        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${collectionId}`, {
+        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${collectionId}?sort=-created&perpage=18`, {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -202,14 +197,11 @@ async function fetchBookmarks() {
         const data = await response.json();
         console.log('└─ Bookmarks fetched successfully ─┘');
         
-        // Limit to most recent 18 items
-        const limitedItems = data.items.slice(0, 18);
-        
         // Cache the bookmarks
-        localStorage.setItem(RAINDROP_CONFIG.STORAGE_KEYS.BOOKMARKS_CACHE, JSON.stringify(limitedItems));
+        localStorage.setItem(RAINDROP_CONFIG.STORAGE_KEYS.BOOKMARKS_CACHE, JSON.stringify(data.items));
         localStorage.setItem(RAINDROP_CONFIG.STORAGE_KEYS.LAST_SYNC, Date.now().toString());
         
-        return limitedItems;
+        return data.items;
     } catch (error) {
         console.error('Error fetching bookmarks:', error);
         
@@ -239,9 +231,6 @@ function displayBookmarks(bookmarks) {
         showEmptyState();
         return;
     }
-
-    // Show the container
-    document.getElementById('columns-container').style.display = 'flex';
 
     // Distribute all bookmarks across three columns
     distributeBookmarksToColumns(bookmarks);
