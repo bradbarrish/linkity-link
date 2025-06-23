@@ -104,6 +104,19 @@ body {
     100% { color: #ff0000; }  /* Back to Red */
 }
 
+/* Platform image */
+.platform-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.platform-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Main content */
 .main {
     margin-bottom: 20px;

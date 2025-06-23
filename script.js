@@ -237,6 +237,12 @@ function displayHeadline(headlineBookmark) {
     // Always display the specific headline regardless of bookmark data
     headlineSection.innerHTML = `<a href="https://www.robinsloan.com/lab/platform-reality/" target="_blank">LONG LIVE THE WEB PLATFORM</a>`;
     headlineSection.style.display = 'block';
+    
+    // Also show the platform image
+    const imageSection = document.getElementById('platform-image');
+    if (imageSection) {
+        imageSection.style.display = 'block';
+    }
 }
 
 function displayBookmarks(bookmarks) {
