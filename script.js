@@ -13,11 +13,8 @@ async function initializeApp() {
     try {
         console.log('┌─ Linkity Link initialized ─┐');
         
-        // Fetch headline and regular bookmarks in parallel
-        const [headlineBookmarks, regularBookmarks] = await Promise.all([
-            fetchHeadlineBookmarks().catch(() => []),
-            fetchBookmarks().catch(() => [])
-        ]);
+        // Fetch bookmarks
+        const regularBookmarks = await fetchBookmarks().catch(() => []);
         
         // Hide loading and display content
         const loadingEl = document.getElementById('loading');
@@ -57,17 +54,8 @@ function createASCIIAnimation(x, y) {
     
     document.body.appendChild(element);
     
-    // Animate the character transformation
-    let step = 0;
-    const animationInterval = setInterval(() => {
-        if (step < ANIMATION_CHARS.length) {
-            element.textContent = ANIMATION_CHARS[step];
-            step++;
-        } else {
-            clearInterval(animationInterval);
-            element.remove();
-        }
-    }, 150);
+    // Remove element after animation completes
+    setTimeout(() => element.remove(), 800);
 }
 
 
@@ -95,7 +83,7 @@ function setupAnimatedCursor() {
     setInterval(() => {
         cursor.textContent = cursorChars[cursorIndex];
         cursorIndex = (cursorIndex + 1) % cursorChars.length;
-    }, 200);
+    }, 300);
 }
 
 
@@ -116,81 +104,14 @@ function showErrorState() {
 }
 
 // Raindrop.io API functions
-async function fetchCollections() {
-    try {
-        const token = RAINDROP_CONFIG.TEST_TOKEN;
-        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/collections`, {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${token}`,
-                'Content-Type': 'application/json'
-            }
-        });
-        
-        if (!response.ok) {
-            throw new Error(`Collections request failed: ${response.status} ${response.statusText}`);
-        }
-        
-        const data = await response.json();
-        return data.items;
-    } catch (error) {
-        console.error('Error fetching collections:', error);
-        return [];
-    }
-}
 
-async function fetchHeadlineBookmarks() {
-    try {
-        console.log('┌─ Fetching headline bookmarks ─┐');
-        
-        // First get collections to find "Clone Clone Headline"
-        const collections = await fetchCollections();
-        const headlineCollection = collections.find(col => col.title === 'Clone Clone Headline');
-        
-        if (!headlineCollection) {
-            console.log('└─ Clone Clone Headline collection not found ─┘');
-            return [];
-        }
-        
-        const token = RAINDROP_CONFIG.TEST_TOKEN;
-        const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${headlineCollection._id}`, {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${token}`,
-                'Content-Type': 'application/json'
-            }
-        });
-        
-        if (!response.ok) {
-            throw new Error(`Headline request failed: ${response.status} ${response.statusText}`);
-        }
-        
-        const data = await response.json();
-        console.log('└─ Headline bookmarks fetched successfully ─┘');
-        
-        return data.items;
-    } catch (error) {
-        console.error('Error fetching headline bookmarks:', error);
-        return [];
-    }
-}
 
 async function fetchBookmarks() {
     try {
         console.log('┌─ Fetching bookmarks from Clone Clone collection ─┐');
         
-        // First get collections to find "Clone Clone"
-        const collections = await fetchCollections();
-        const cloneCollection = collections.find(col => col.title === 'Clone Clone');
-        
-        let collectionId;
-        if (!cloneCollection) {
-            console.log('└─ Clone Clone collection not found, using default ─┘');
-            // Fall back to default collection if Clone Clone not found
-            collectionId = RAINDROP_CONFIG.DEFAULT_COLLECTION;
-        } else {
-            collectionId = cloneCollection._id;
-        }
+        // Use default collection
+        const collectionId = RAINDROP_CONFIG.DEFAULT_COLLECTION;
         
         const token = RAINDROP_CONFIG.TEST_TOKEN;
         const response = await fetch(`${RAINDROP_CONFIG.BASE_URL}/raindrops/${collectionId}`, {
@@ -237,12 +158,6 @@ function displayHeadline(headlineBookmark) {
     // Always display the specific headline regardless of bookmark data
     headlineSection.innerHTML = `<a href="https://www.robinsloan.com/lab/platform-reality/" target="_blank">LONG LIVE THE WEB PLATFORM</a>`;
     headlineSection.style.display = 'block';
-    
-    // Also show the platform image
-    const imageSection = document.getElementById('platform-image');
-    if (imageSection) {
-        imageSection.style.display = 'block';
-    }
 }
 
 function displayBookmarks(bookmarks) {
