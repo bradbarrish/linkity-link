@@ -1,0 +1,17 @@
+{
+  "name": "linkity-link-rss",
+  "version": "1.0.0",
+  "description": "RSS feed generator for Linkity Link",
+  "main": "rss-generator.js",
+  "scripts": {
+    "generate-rss": "node rss-generator.js",
+    "watch": "nodemon rss-generator.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+} 
