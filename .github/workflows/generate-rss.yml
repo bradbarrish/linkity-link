@@ -11,6 +11,9 @@ on:
       - 'rss.xml'
       - 'node_modules/**'
 
+permissions:
+  contents: write
+
 jobs:
   generate-rss:
     runs-on: ubuntu-latest
@@ -44,8 +47,8 @@ jobs:
       
     - name: Commit and push RSS file
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add rss.xml
         if git diff --staged --quiet; then
           echo "No changes to RSS file"
