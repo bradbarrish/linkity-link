@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 25 Jun 2025 18:35:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2025 02:00:25 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Using AI Right Now: A Quick Guide]]></title>
+            <link>https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide</link>
+            <guid>https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide</guid>
+            <pubDate>Wed, 25 Jun 2025 22:30:57 GMT</pubDate>
+            <description><![CDATA[Which AIs to use, and how to use them, according to Ethan Mollick]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apple Updates Its On-Device and Cloud AI Models, Introduces a New Developer API]]></title>
+            <link>https://www.deeplearning.ai/the-batch/apple-updates-its-on-device-and-cloud-ai-models-introduces-a-new-developer-api/</link>
+            <guid>https://www.deeplearning.ai/the-batch/apple-updates-its-on-device-and-cloud-ai-models-introduces-a-new-developer-api/</guid>
+            <pubDate>Wed, 25 Jun 2025 22:29:57 GMT</pubDate>
+            <description><![CDATA[Apple revamped two vision-language models in a bid to play catch-up]]></description>
+        </item>
         <item>
             <title><![CDATA[Smoking Tigers (Original Score) by Masayoshi Fujita]]></title>
             <link>https://album.link/i/1816912041</link>
