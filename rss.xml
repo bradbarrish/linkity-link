@@ -5,9 +5,51 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 26 Jun 2025 05:37:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Jun 2025 07:09:45 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Building a kid-friendly eInk weather forecast display]]></title>
+            <link>https://eli.pizza/posts/eink-weather-display-for-kids/?_bhlid=410708bfa4e17a5f4ec375c6f0221a22b14b341a</link>
+            <guid>https://eli.pizza/posts/eink-weather-display-for-kids/?_bhlid=410708bfa4e17a5f4ec375c6f0221a22b14b341a</guid>
+            <pubDate>Mon, 30 Jun 2025 06:31:36 GMT</pubDate>
+            <description><![CDATA[Displaying the current weather and forecast on the wall in a kid-friendly way with OpenWeatherMap and a local LLM.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[10 years of pomological watercolors]]></title>
+            <link>https://parkerhiggins.net/2025/04/10-years-of-pomological-watercolors/</link>
+            <guid>https://parkerhiggins.net/2025/04/10-years-of-pomological-watercolors/</guid>
+            <pubDate>Mon, 30 Jun 2025 06:28:38 GMT</pubDate>
+            <description><![CDATA[Parker's story of The Pomological Watercolor Collection is lovely.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Thinking critically about a new study on AI and cognition]]></title>
+            <link>https://peterattiamd.com/ai-and-cognition/?utm_source=Klaviyo&utm_medium=campaign&utm_campaign=250629%20-%20AI%20and%20learning%20-%20Non%20Subs&_kx=9OdrFZlQJk7xkLfstqJ6vIrBESkU_2olubGRkYNTmbEJ7LdgUOqSWvvr-ew4PoLj.W9ibUh</link>
+            <guid>https://peterattiamd.com/ai-and-cognition/?utm_source=Klaviyo&utm_medium=campaign&utm_campaign=250629%20-%20AI%20and%20learning%20-%20Non%20Subs&_kx=9OdrFZlQJk7xkLfstqJ6vIrBESkU_2olubGRkYNTmbEJ7LdgUOqSWvvr-ew4PoLj.W9ibUh</guid>
+            <pubDate>Mon, 30 Jun 2025 03:54:20 GMT</pubDate>
+            <description><![CDATA[Peter Attia sensibly weighs in on that AI and cognition study that almost no one has read, but says they have.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Our Privacy Expert Tried, and Failed, to Disappear From the Internet]]></title>
+            <link>https://www.nytimes.com/wirecutter/reviews/how-to-disappear-from-the-internet/?campaign_id=290&emc=edit_wcd_20250629&instance_id=157430&nl=the-recommendation&regi_id=86723650&segment_id=200881&user_id=90889638ce3a0e6393d2092e92a663aa</link>
+            <guid>https://www.nytimes.com/wirecutter/reviews/how-to-disappear-from-the-internet/?campaign_id=290&emc=edit_wcd_20250629&instance_id=157430&nl=the-recommendation&regi_id=86723650&segment_id=200881&user_id=90889638ce3a0e6393d2092e92a663aa</guid>
+            <pubDate>Mon, 30 Jun 2025 03:48:58 GMT</pubDate>
+            <description><![CDATA[Good luck with that.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New portable cassette player comes loaded with modern features like Bluetooth, USB-C, and a rechargeable battery]]></title>
+            <link>https://www.tomshardware.com/peripherals/wearable-tech/new-portable-cassette-player-comes-loaded-with-modern-features-like-bluetooth-usb-c-and-a-rechargeable-battery</link>
+            <guid>https://www.tomshardware.com/peripherals/wearable-tech/new-portable-cassette-player-comes-loaded-with-modern-features-like-bluetooth-usb-c-and-a-rechargeable-battery</guid>
+            <pubDate>Mon, 30 Jun 2025 03:41:32 GMT</pubDate>
+            <description><![CDATA[Casettes still suck, but people sure seem to like a modernized portable cassette player.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[America’s Coming Smoke Epidemic]]></title>
+            <link>https://www.theatlantic.com/science/archive/2025/06/wildfire-smoke-epidemic/683343/</link>
+            <guid>https://www.theatlantic.com/science/archive/2025/06/wildfire-smoke-epidemic/683343/</guid>
+            <pubDate>Mon, 30 Jun 2025 03:38:20 GMT</pubDate>
+            <description><![CDATA[We're only just beginning to understand the effects that wildfire smoke has on the body. As you can guess, it's not good.]]></description>
+        </item>
         <item>
             <title><![CDATA[How to live off the rails]]></title>
             <link>https://buttondown.com/monteiro/archive/how-to-live-off-the-rails/</link>
@@ -315,20 +357,6 @@
             <guid>https://docs.google.com/document/d/1-3q70tJV7A-Y99uGO6bd8Hrx4uE0iZtn-QrIa6wWag8/mobilebasic</guid>
             <pubDate>Sat, 14 Jun 2025 07:05:20 GMT</pubDate>
             <description><![CDATA[We hate other people when latency becomes intolerable. As soon as a task is about speed, other humans feel like an irritating inconvenience.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[It matters. I care.]]></title>
-            <link>https://www.citationneeded.news/it-matters-i-care/</link>
-            <guid>https://www.citationneeded.news/it-matters-i-care/</guid>
-            <pubDate>Sat, 14 Jun 2025 05:16:37 GMT</pubDate>
-            <description><![CDATA[When we throw up our hands and say none of it matters, we're doing the fascists’ work for them. They don't need to hide their corruption if they can convince us it's pointless to look. They don't need to silence truth-tellers if we've already decided truth is meaningless.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[A receipt printer cured my procrastination [ADHD]]]></title>
-            <link>https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination</link>
-            <guid>https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination</guid>
-            <pubDate>Sat, 14 Jun 2025 05:09:11 GMT</pubDate>
-            <description><![CDATA[This weird $150 printer trick cured 20 years of procrastination using video game psychology]]></description>
         </item>
     </channel>
 </rss>
