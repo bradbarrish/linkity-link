@@ -5,9 +5,30 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 05 Aug 2025 12:57:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 18:40:28 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[OpenAI Releases Open Models]]></title>
+            <link>https://openai.com/open-models/</link>
+            <guid>https://openai.com/open-models/</guid>
+            <pubDate>Tue, 05 Aug 2025 17:30:07 GMT</pubDate>
+            <description><![CDATA[Exciting! These are open-weight reasonaing models that you can download and customize.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A.I. Is About to Solve Loneliness]]></title>
+            <link>https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem</link>
+            <guid>https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem</guid>
+            <pubDate>Tue, 05 Aug 2025 14:23:15 GMT</pubDate>
+            <description><![CDATA[And that's not going to be a good thing. The discomfort of loneliness shapes us in ways we don’t recognize—and we may not like what we become without it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Seth's new tool to help you get unstuck]]></title>
+            <link>https://seths.blog/2025/08/the-mentor-deck-first-beta-edition/</link>
+            <guid>https://seths.blog/2025/08/the-mentor-deck-first-beta-edition/</guid>
+            <pubDate>Tue, 05 Aug 2025 14:20:18 GMT</pubDate>
+            <description><![CDATA[I love how he's utilizing AI and the combination of physical and digital]]></description>
+        </item>
         <item>
             <title><![CDATA[LinkedIn Joins The Parade Of Cowards]]></title>
             <link>https://www.techdirt.com/2025/08/01/linkedin-joins-the-parade-of-cowards-quietly-strips-anti-trans-protections-to-appease-maga-mob/</link>
@@ -336,27 +357,6 @@
             <guid>https://www.derekthompson.org/p/the-death-of-partying-in-the-usaand</guid>
             <pubDate>Thu, 10 Jul 2025 05:20:41 GMT</pubDate>
             <description><![CDATA[Young Americans today spend 70 percent less time attending or hosting parties than they did at the beginning of the 21st century. Why?]]></description>
-        </item>
-        <item>
-            <title><![CDATA[OpenAI and Microsoft Bankroll New A.I. Training for Teachers]]></title>
-            <link>https://www.nytimes.com/2025/07/08/technology/chatgpt-teachers-openai-microsoft.html</link>
-            <guid>https://www.nytimes.com/2025/07/08/technology/chatgpt-teachers-openai-microsoft.html</guid>
-            <pubDate>Thu, 10 Jul 2025 05:15:49 GMT</pubDate>
-            <description><![CDATA[The American Federation of Teachers said it will create a national training center with all the money 🤔]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Something Extraordinary Is Happening All Over the World]]></title>
-            <link>https://www.nytimes.com/2025/01/31/opinion/trump-migration-world.html?unlocked_article_code=1.VE8.xLI0.GVbfqbCV-vln</link>
-            <guid>https://www.nytimes.com/2025/01/31/opinion/trump-migration-world.html?unlocked_article_code=1.VE8.xLI0.GVbfqbCV-vln</guid>
-            <pubDate>Thu, 10 Jul 2025 05:10:57 GMT</pubDate>
-            <description><![CDATA[Migration is central to our politics and our world, but nobody really understands it.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Technivorm Moccamaster KBGV Select 10-Cup Coffee Maker]]></title>
-            <link>https://www.amazon.com/dp/B0BPJQS63W?psc=1&amp;smid=ATVPDKIKX0DER&amp;linkCode=ll1&amp;tag=whatevernev0b-20&amp;linkId=e6f051827ea81fe6b8c64c769ca80fa0&amp;language=en_US&amp;ref_=as_li_ss_tl</link>
-            <guid>https://www.amazon.com/dp/B0BPJQS63W?psc=1&amp;smid=ATVPDKIKX0DER&amp;linkCode=ll1&amp;tag=whatevernev0b-20&amp;linkId=e6f051827ea81fe6b8c64c769ca80fa0&amp;language=en_US&amp;ref_=as_li_ss_tl</guid>
-            <pubDate>Thu, 10 Jul 2025 05:06:13 GMT</pubDate>
-            <description><![CDATA[🚨 45% off the Moccamaster on Amazon ☕]]></description>
         </item>
     </channel>
 </rss>
