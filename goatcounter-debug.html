@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatCounter Debug Test</title>
+</head>
+<body>
+    <h1>GoatCounter Debug Test for linkitylink.lol</h1>
+    
+    <div id="status">
+        <h2>Test Results:</h2>
+        <ul id="results"></ul>
+    </div>
+
+    <!-- Same GoatCounter script as in production -->
+    <script data-goatcounter="https://linkitylink.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
+    <script>
+        const results = document.getElementById('results');
+        
+        function addResult(message, success = true) {
+            const li = document.createElement('li');
+            li.textContent = message;
+            li.style.color = success ? 'green' : 'red';
+            results.appendChild(li);
+        }
+
+        // Check if GoatCounter script loads
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+                    addResult('✓ GoatCounter script loaded successfully');
+                    
+                    // Try to manually trigger a count
+                    window.goatcounter.count({
+                        path: '/debug-test',
+                        title: 'Debug Test Page',
+                        referrer: document.referrer || ''
+                    });
+                    addResult('✓ Manual count triggered');
+                } else {
+                    addResult('✗ GoatCounter script failed to load or initialize', false);
+                    addResult('This might be due to: ad blockers, privacy extensions, or network issues', false);
+                }
+            }, 2000); // Wait 2 seconds for async script to load
+        });
+
+        // Check for ad blockers
+        const testAd = document.createElement('div');
+        testAd.innerHTML = '&nbsp;';
+        testAd.className = 'adsbox';
+        testAd.style.position = 'absolute';
+        testAd.style.top = '-1px';
+        document.body.appendChild(testAd);
+        
+        window.setTimeout(function() {
+            if (testAd.offsetHeight === 0) {
+                addResult('⚠ Ad blocker detected - this might block analytics scripts', false);
+            } else {
+                addResult('✓ No ad blocker detected');
+            }
+            document.body.removeChild(testAd);
+        }, 100);
+
+        // Test direct API call
+        fetch('https://linkitylink.goatcounter.com/count?p=%2Fapi-test&t=API%20Test')
+            .then(response => {
+                if (response.ok) {
+                    addResult('✓ Direct API call to GoatCounter succeeded');
+                } else {
+                    addResult('✗ Direct API call failed with status: ' + response.status, false);
+                }
+            })
+            .catch(error => {
+                addResult('✗ Direct API call failed: ' + error.message, false);
+            });
+
+        // Check if browser blocks third-party scripts
+        if (navigator.doNotTrack === "1" || window.doNotTrack === "1") {
+            addResult('⚠ Do Not Track is enabled - some browsers block analytics with DNT', false);
+        }
+
+        // Log console errors
+        window.addEventListener('error', function(e) {
+            if (e.filename && e.filename.includes('gc.zgo.at')) {
+                addResult('✗ GoatCounter script error: ' + e.message, false);
+            }
+        });
+    </script>
+
+    <h3>Manual Testing Steps:</h3>
+    <ol>
+        <li>Open this page in a browser: <code>goatcounter-debug.html</code></li>
+        <li>Check the browser's Developer Console (F12) for any errors</li>
+        <li>Check the Network tab to see if count.js loads successfully</li>
+        <li>Check if any browser extensions (ad blockers, privacy tools) are blocking the script</li>
+        <li>After testing, check your GoatCounter dashboard to see if the test pageviews were recorded</li>
+    </ol>
+
+    <h3>Common Issues:</h3>
+    <ul>
+        <li><strong>Ad Blockers:</strong> uBlock Origin, AdBlock Plus, and similar extensions often block analytics scripts</li>
+        <li><strong>Privacy Extensions:</strong> Privacy Badger, Ghostery, DuckDuckGo Privacy Essentials may block third-party analytics</li>
+        <li><strong>Browser Settings:</strong> Strict tracking protection in Firefox/Safari can block analytics</li>
+        <li><strong>Network Issues:</strong> Corporate firewalls or DNS filters might block gc.zgo.at</li>
+        <li><strong>HTTPS Issues:</strong> Protocol-relative URLs (//gc.zgo.at) should work but might fail in some contexts</li>
+    </ul>
+</body>
+</html>

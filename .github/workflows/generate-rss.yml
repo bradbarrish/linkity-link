@@ -34,6 +34,8 @@ jobs:
       run: npm ci
       
     - name: Generate RSS feed
+      env:
+        RAINDROP_TOKEN: ${{ secrets.RAINDROP_TOKEN }}
       run: npm run generate-rss
       
     - name: Check if RSS file was generated

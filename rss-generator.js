@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 
 // Raindrop.io API Configuration
 const RAINDROP_CONFIG = {
-    TEST_TOKEN: '28588c25-dec4-4966-afe1-9ce1f9c374ff',
+    TEST_TOKEN: process.env.RAINDROP_TOKEN || '28588c25-dec4-4966-afe1-9ce1f9c374ff',
     BASE_URL: 'https://api.raindrop.io/rest/v1',
     DEFAULT_COLLECTION: 0
 };
