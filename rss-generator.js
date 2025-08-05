@@ -25,6 +25,10 @@ async function fetchCollections() {
 
 async function fetchBookmarks() {
     try {
+        if (!RAINDROP_CONFIG.TEST_TOKEN) {
+            throw new Error('Raindrop.io API token not configured');
+        }
+        
         const collections = await fetchCollections();
         const linkityCollection = collections.find(col => col.title === 'Linkity Link');
         
@@ -38,13 +42,27 @@ async function fetchBookmarks() {
             }
         });
         
-        if (!response.ok) throw new Error(`API request failed`);
+        if (!response.ok) {
+            throw new Error(`API request failed: ${response.status} ${response.statusText}`);
+        }
         const data = await response.json();
         return data.items;
     } catch (error) {
-        console.error('Error fetching bookmarks:', error);
-        return [];
+        console.error('Error fetching bookmarks:', error.message);
+        throw error;
     }
+}
+
+function escapeXml(unsafe) {
+    return unsafe.replace(/[<>&'"]/g, function (c) {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '\'': return '&apos;';
+            case '"': return '&quot;';
+        }
+    });
 }
 
 function generateRSS(bookmarks) {
@@ -60,8 +78,8 @@ function generateRSS(bookmarks) {
         ${bookmarks.map(bookmark => `
         <item>
             <title><![CDATA[${bookmark.title}]]></title>
-            <link>${bookmark.link}</link>
-            <guid>${bookmark.link}</guid>
+            <link>${escapeXml(bookmark.link)}</link>
+            <guid>${escapeXml(bookmark.link)}</guid>
             <pubDate>${new Date(bookmark.created).toUTCString()}</pubDate>
             <description><![CDATA[${bookmark.note || bookmark.excerpt || ''}]]></description>
         </item>`).join('')}
@@ -90,7 +108,8 @@ async function generateRSSFeed() {
         console.log('RSS feed generated successfully: rss.xml');
         
     } catch (error) {
-        console.error('Error generating RSS feed:', error);
+        console.error('Error generating RSS feed:', error.message);
+        process.exit(1);
     }
 }
 
