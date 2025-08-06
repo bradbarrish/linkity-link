@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 06 Aug 2025 12:57:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Aug 2025 18:37:35 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[What Kids Told Us About How to Get Them Off Their Phones]]></title>
+            <link>https://www.theatlantic.com/ideas/archive/2025/08/kids-smartphones-play-freedom/683742/</link>
+            <guid>https://www.theatlantic.com/ideas/archive/2025/08/kids-smartphones-play-freedom/683742/</guid>
+            <pubDate>Wed, 06 Aug 2025 14:41:14 GMT</pubDate>
+            <description><![CDATA[Children who were raised on screens need more freedom out in the real world.]]></description>
+        </item>
         <item>
             <title><![CDATA[OpenAI Releases Open Models]]></title>
             <link>https://openai.com/open-models/</link>
@@ -350,13 +357,6 @@
             <guid>https://github.com/jackjackbits/bitchat</guid>
             <pubDate>Thu, 10 Jul 2025 05:33:41 GMT</pubDate>
             <description><![CDATA[No Internet required. This is... interesting]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Death of Partying in the U.S.A.—and Why It Matters]]></title>
-            <link>https://www.derekthompson.org/p/the-death-of-partying-in-the-usaand</link>
-            <guid>https://www.derekthompson.org/p/the-death-of-partying-in-the-usaand</guid>
-            <pubDate>Thu, 10 Jul 2025 05:20:41 GMT</pubDate>
-            <description><![CDATA[Young Americans today spend 70 percent less time attending or hosting parties than they did at the beginning of the 21st century. Why?]]></description>
         </item>
     </channel>
 </rss>
