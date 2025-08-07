@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 07 Aug 2025 02:12:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Aug 2025 06:40:54 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[The arcane alphabets of Black Sabbath]]></title>
+            <link>https://fontsinuse.com/uses/35835/the-arcane-alphabets-of-black-sabbath</link>
+            <guid>https://fontsinuse.com/uses/35835/the-arcane-alphabets-of-black-sabbath</guid>
+            <pubDate>Thu, 07 Aug 2025 04:34:31 GMT</pubDate>
+            <description><![CDATA[To commemorate Ozzy, the best fonts site on the web take a deep dive into the obscure sources for the titling designs on Black Sabbath's early album covers.]]></description>
+        </item>
         <item>
             <title><![CDATA[What Kids Told Us About How to Get Them Off Their Phones]]></title>
             <link>https://www.theatlantic.com/ideas/archive/2025/08/kids-smartphones-play-freedom/683742/</link>
@@ -350,13 +357,6 @@
             <guid>https://www.bostonreview.net/articles/california-triptych/</guid>
             <pubDate>Thu, 10 Jul 2025 05:37:08 GMT</pubDate>
             <description><![CDATA[Whatever a sustainable world looks like, Los Angeles won’t be in it.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Jack Dorsey built a bluetooth mesh chat with IRC vibes]]></title>
-            <link>https://github.com/jackjackbits/bitchat</link>
-            <guid>https://github.com/jackjackbits/bitchat</guid>
-            <pubDate>Thu, 10 Jul 2025 05:33:41 GMT</pubDate>
-            <description><![CDATA[No Internet required. This is... interesting]]></description>
         </item>
     </channel>
 </rss>
