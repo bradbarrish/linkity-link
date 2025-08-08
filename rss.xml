@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 07 Aug 2025 18:39:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Aug 2025 02:11:51 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Simon's GPT-5 write-up is required reading]]></title>
+            <link>https://simonwillison.net/2025/Aug/7/gpt-5/</link>
+            <guid>https://simonwillison.net/2025/Aug/7/gpt-5/</guid>
+            <pubDate>Thu, 07 Aug 2025 23:33:53 GMT</pubDate>
+            <description><![CDATA[He says GPT-5 is his daily-driver and his new favorite model.]]></description>
+        </item>
         <item>
             <title><![CDATA[The arcane alphabets of Black Sabbath]]></title>
             <link>https://fontsinuse.com/uses/35835/the-arcane-alphabets-of-black-sabbath</link>
@@ -350,13 +357,6 @@
             <guid>https://www.whitenoise.chat/</guid>
             <pubDate>Thu, 10 Jul 2025 06:04:30 GMT</pubDate>
             <description><![CDATA[A truly secure and private messenger that's lightning fast, massively scalable, and identity-free.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[California Triptych]]></title>
-            <link>https://www.bostonreview.net/articles/california-triptych/</link>
-            <guid>https://www.bostonreview.net/articles/california-triptych/</guid>
-            <pubDate>Thu, 10 Jul 2025 05:37:08 GMT</pubDate>
-            <description><![CDATA[Whatever a sustainable world looks like, Los Angeles won’t be in it.]]></description>
         </item>
     </channel>
 </rss>
