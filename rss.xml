@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 12 Aug 2025 01:59:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 06:37:14 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Claude Code Is All You Need]]></title>
+            <link>https://dwyer.co.za/static/claude-code-is-all-you-need.html</link>
+            <guid>https://dwyer.co.za/static/claude-code-is-all-you-need.html</guid>
+            <pubDate>Tue, 12 Aug 2025 03:26:02 GMT</pubDate>
+            <description><![CDATA[Mostly agree. I use Claude Code for a lot and really enjoyed this.]]></description>
+        </item>
         <item>
             <title><![CDATA[New eye drops can fix farsightedness]]></title>
             <link>https://www.popsci.com/health/farsightedness-eye-drops-vizz/</link>
@@ -350,13 +357,6 @@
             <guid>https://kite.kagi.com/</guid>
             <pubDate>Fri, 11 Jul 2025 06:29:59 GMT</pubDate>
             <description><![CDATA[Kagi is doign news. Love that it's pretty much just text too!]]></description>
-        </item>
-        <item>
-            <title><![CDATA[IKEA NATTBAD Bluetooth speaker]]></title>
-            <link>https://www.ikea.com/us/en/p/nattbad-bluetooth-speaker-black-40601603/</link>
-            <guid>https://www.ikea.com/us/en/p/nattbad-bluetooth-speaker-black-40601603/</guid>
-            <pubDate>Thu, 10 Jul 2025 06:11:42 GMT</pubDate>
-            <description><![CDATA[I'm sure it sounds like garbage, but it's a nice-looking speaker. Too bad the Sonos partnership fizzled.]]></description>
         </item>
     </channel>
 </rss>
