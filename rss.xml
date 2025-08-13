@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 13 Aug 2025 02:01:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Aug 2025 06:37:40 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Data Dominates Every Facet of Our Daily Lives]]></title>
+            <link>https://lithub.com/ruled-by-numbers-how-data-dominates-every-facet-of-our-daily-lives/</link>
+            <guid>https://lithub.com/ruled-by-numbers-how-data-dominates-every-facet-of-our-daily-lives/</guid>
+            <pubDate>Wed, 13 Aug 2025 04:36:10 GMT</pubDate>
+            <description><![CDATA[How to reclaim our humanity]]></description>
+        </item>
         <item>
             <title><![CDATA[Claude Code Is All You Need]]></title>
             <link>https://dwyer.co.za/static/claude-code-is-all-you-need.html</link>
@@ -350,13 +357,6 @@
             <guid>https://greatwavetoday.com/</guid>
             <pubDate>Fri, 11 Jul 2025 06:37:17 GMT</pubDate>
             <description><![CDATA[Yay art. I love clever, singular websites like this]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Kite is Kagi's new news site]]></title>
-            <link>https://kite.kagi.com/</link>
-            <guid>https://kite.kagi.com/</guid>
-            <pubDate>Fri, 11 Jul 2025 06:29:59 GMT</pubDate>
-            <description><![CDATA[Kagi is doign news. Love that it's pretty much just text too!]]></description>
         </item>
     </channel>
 </rss>
