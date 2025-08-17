@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 17 Aug 2025 02:08:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Aug 2025 06:34:53 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Class-action suit claims Otter AI secretly records private work conversations]]></title>
+            <link>https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit</link>
+            <guid>https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit</guid>
+            <pubDate>Sun, 17 Aug 2025 04:53:34 GMT</pubDate>
+            <description><![CDATA[A lot of what this lawsuit talks about is exactly why I cancelled my Otter subscription. Super shady.]]></description>
+        </item>
         <item>
             <title><![CDATA[Data Dominates Every Facet of Our Daily Lives]]></title>
             <link>https://lithub.com/ruled-by-numbers-how-data-dominates-every-facet-of-our-daily-lives/</link>
@@ -350,13 +357,6 @@
             <guid>https://merlin.ghost.io/the-right-zero/</guid>
             <pubDate>Fri, 11 Jul 2025 06:40:38 GMT</pubDate>
             <description><![CDATA[Merlin Mann talks about how he thinks about Inbox Zero these days]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Where can you see Hokusai's Great Wave today?]]></title>
-            <link>https://greatwavetoday.com/</link>
-            <guid>https://greatwavetoday.com/</guid>
-            <pubDate>Fri, 11 Jul 2025 06:37:17 GMT</pubDate>
-            <description><![CDATA[Yay art. I love clever, singular websites like this]]></description>
         </item>
     </channel>
 </rss>
