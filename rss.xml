@@ -5,9 +5,58 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 19 Aug 2025 01:56:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Aug 2025 06:36:03 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[bitrig]]></title>
+            <link>https://www.bitrig.app/</link>
+            <guid>https://www.bitrig.app/</guid>
+            <pubDate>Tue, 19 Aug 2025 05:04:58 GMT</pubDate>
+            <description><![CDATA[Impressive! From the folks who created SwiftUI comes a way to build apps for your phone, on your phone.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Phrack is BACK]]></title>
+            <link>https://phrack.org/issues/72/1</link>
+            <guid>https://phrack.org/issues/72/1</guid>
+            <pubDate>Tue, 19 Aug 2025 04:43:26 GMT</pubDate>
+            <description><![CDATA[This brings back the serious feels. Wow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Covid and Our Arteries]]></title>
+            <link>https://erictopol.substack.com/p/covid-and-our-arteries?utm_source=post-email-title&amp;publication_id=587835&amp;post_id=171283898&amp;utm_campaign=email-post-title&amp;isFreemail=true&amp;r=1et5q&amp;triedRedirect=true&amp;utm_medium=email</link>
+            <guid>https://erictopol.substack.com/p/covid-and-our-arteries?utm_source=post-email-title&amp;publication_id=587835&amp;post_id=171283898&amp;utm_campaign=email-post-title&amp;isFreemail=true&amp;r=1et5q&amp;triedRedirect=true&amp;utm_medium=email</guid>
+            <pubDate>Tue, 19 Aug 2025 04:39:15 GMT</pubDate>
+            <description><![CDATA[A new study on acceleration of vascular aging adds to the body of evidence. I have thankfully only had it once that I know of and I hope to avoid getting it again.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Lab-Grown Salmon Hits the Menu]]></title>
+            <link>https://www.smithsonianmag.com/smart-news/lab-grown-salmon-hits-the-menu-at-an-oregon-restaurant-as-the-fda-greenlights-the-cell-cultured-product-180986769/</link>
+            <guid>https://www.smithsonianmag.com/smart-news/lab-grown-salmon-hits-the-menu-at-an-oregon-restaurant-as-the-fda-greenlights-the-cell-cultured-product-180986769/</guid>
+            <pubDate>Tue, 19 Aug 2025 04:35:29 GMT</pubDate>
+            <description><![CDATA[The FDA's decision clears the way for the first cultured fish to join the small but growing alternative protein market.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The peculiar case of Japanese web design]]></title>
+            <link>https://sabrinas.space/</link>
+            <guid>https://sabrinas.space/</guid>
+            <pubDate>Tue, 19 Aug 2025 04:31:05 GMT</pubDate>
+            <description><![CDATA[A deep dive]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The beauty of a text only webpage]]></title>
+            <link>https://albanbrooke.com/the-beauty-of-a-text-only-webpage/</link>
+            <guid>https://albanbrooke.com/the-beauty-of-a-text-only-webpage/</guid>
+            <pubDate>Tue, 19 Aug 2025 03:06:13 GMT</pubDate>
+            <description><![CDATA[There's something I love about opening a text-only webpage.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[T-Mobile claimed selling location data without consent is legal—judges disagree]]></title>
+            <link>https://arstechnica.com/tech-policy/2025/08/t-mobile-claimed-selling-location-data-without-consent-is-legal-judges-disagree/</link>
+            <guid>https://arstechnica.com/tech-policy/2025/08/t-mobile-claimed-selling-location-data-without-consent-is-legal-judges-disagree/</guid>
+            <pubDate>Tue, 19 Aug 2025 03:03:33 GMT</pubDate>
+            <description><![CDATA[T-Mobile can’t overturn $92 million fine; Even with the fine, I bet they still come out ahead.]]></description>
+        </item>
         <item>
             <title><![CDATA[Class-action suit claims Otter AI secretly records private work conversations]]></title>
             <link>https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit</link>
@@ -49,6 +98,13 @@
             <guid>https://fontsinuse.com/uses/35835/the-arcane-alphabets-of-black-sabbath</guid>
             <pubDate>Thu, 07 Aug 2025 04:34:31 GMT</pubDate>
             <description><![CDATA[To commemorate Ozzy, the best fonts site on the web take a deep dive into the obscure sources for the titling designs on Black Sabbath's early album covers.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Lumo is a privacy-first AI assistant]]></title>
+            <link>https://lumo.proton.me/guest</link>
+            <guid>https://lumo.proton.me/guest</guid>
+            <pubDate>Wed, 06 Aug 2025 14:49:47 GMT</pubDate>
+            <description><![CDATA[Proton made a zero-access encrypted AI assistantthat doesn't track or record your conversations.]]></description>
         </item>
         <item>
             <title><![CDATA[What Kids Told Us About How to Get Them Off Their Phones]]></title>
@@ -301,62 +357,6 @@
             <guid>https://www.alexkesin.com/p/the-hollow-men-of-hims</guid>
             <pubDate>Thu, 17 Jul 2025 05:34:36 GMT</pubDate>
             <description><![CDATA[An admittedly partial–but deeply troubling–case against America's most brazen medical grift, involving Chinese knockoffs, subscription traps, and prescription gas station sex pills.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Kimi K2 is Alive]]></title>
-            <link>https://www.kimi.com/</link>
-            <guid>https://www.kimi.com/</guid>
-            <pubDate>Thu, 17 Jul 2025 05:31:51 GMT</pubDate>
-            <description><![CDATA[Try Kimi K2 now, the open‑source trillion‑parameter MoE model, smarter coding, and agentic task automation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Why We’re Surrounding Our Kids with AI]]></title>
-            <link>https://secondvoice.substack.com/p/why-were-surrounding-our-kids-with</link>
-            <guid>https://secondvoice.substack.com/p/why-were-surrounding-our-kids-with</guid>
-            <pubDate>Thu, 17 Jul 2025 05:29:54 GMT</pubDate>
-            <description><![CDATA[A Contrarian Parenting Take by Simone and Malcolm Collins]]></description>
-        </item>
-        <item>
-            <title><![CDATA[90's TV Simulator]]></title>
-            <link>https://90s.myretrotvs.com/</link>
-            <guid>https://90s.myretrotvs.com/</guid>
-            <pubDate>Sun, 13 Jul 2025 15:46:05 GMT</pubDate>
-            <description><![CDATA[Cool 1990's TV simulator with original ads, music videos, movie trailers, shows and other stuff]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Commodore]]></title>
-            <link>https://www.commodore.net/</link>
-            <guid>https://www.commodore.net/</guid>
-            <pubDate>Sun, 13 Jul 2025 06:20:36 GMT</pubDate>
-            <description><![CDATA[There is a new Commodore 64 computer being released. I never had one. Maybe this is my chance.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Tiny Desk we've been waiting for]]></title>
-            <link>https://www.youtube.com/watch?v=f7gIBB7jKc0</link>
-            <guid>https://www.youtube.com/watch?v=f7gIBB7jKc0</guid>
-            <pubDate>Sun, 13 Jul 2025 06:16:18 GMT</pubDate>
-            <description><![CDATA[Clipse make their debut in a way that makes it worth the wait.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Making Personalised Mini Magazines At Home]]></title>
-            <link>https://blog.decryption.net.au/posts/booklets.html</link>
-            <guid>https://blog.decryption.net.au/posts/booklets.html</guid>
-            <pubDate>Sat, 12 Jul 2025 05:11:30 GMT</pubDate>
-            <description><![CDATA[Making dead tree versions of the WWW in the privacy of my own home.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[cobalt is neat little tool]]></title>
-            <link>https://cobalt.tools/</link>
-            <guid>https://cobalt.tools/</guid>
-            <pubDate>Sat, 12 Jul 2025 05:09:06 GMT</pubDate>
-            <description><![CDATA[cobalt lets you save what you love without ads, tracking, paywalls or other nonsense. just paste the link and you're ready to rock!]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Merlin On Chasing the Right “Zero.”]]></title>
-            <link>https://merlin.ghost.io/the-right-zero/</link>
-            <guid>https://merlin.ghost.io/the-right-zero/</guid>
-            <pubDate>Fri, 11 Jul 2025 06:40:38 GMT</pubDate>
-            <description><![CDATA[Merlin Mann talks about how he thinks about Inbox Zero these days]]></description>
         </item>
     </channel>
 </rss>
