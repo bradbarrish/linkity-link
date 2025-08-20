@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 20 Aug 2025 01:54:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Aug 2025 06:36:02 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Zvi has some good travel advice]]></title>
+            <link>https://thezvi.wordpress.com/2025/08/15/spending-too-much-time-at-airports/</link>
+            <guid>https://thezvi.wordpress.com/2025/08/15/spending-too-much-time-at-airports/</guid>
+            <pubDate>Wed, 20 Aug 2025 05:20:27 GMT</pubDate>
+            <description><![CDATA[In honor of Nate Silver’s analysis of when to leave for the airport, and because it’s been an intense week, Zvi offers his thoughts on various related questions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Shocker! Companies caught making it harder to delete your personal data online]]></title>
+            <link>https://themarkup.org/privacy/2025/08/12/we-caught-companies-making-it-harder-to-delete-your-data</link>
+            <guid>https://themarkup.org/privacy/2025/08/12/we-caught-companies-making-it-harder-to-delete-your-data</guid>
+            <pubDate>Wed, 20 Aug 2025 04:52:47 GMT</pubDate>
+            <description><![CDATA[Some good journalism from The Markup about how dozens of companies are hiding how you can delete your personal data.]]></description>
+        </item>
         <item>
             <title><![CDATA[bitrig]]></title>
             <link>https://www.bitrig.app/</link>
@@ -343,20 +357,6 @@
             <guid>https://sublime.app/card/podcast-magic-is-the-simplest-way-to-capture-insig</guid>
             <pubDate>Sun, 20 Jul 2025 00:22:04 GMT</pubDate>
             <description><![CDATA[It's the simplest way to capture insight from podcasts. And you also check out Sublime too.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[MAKING SOFTWARE]]></title>
-            <link>https://www.makingsoftware.com/</link>
-            <guid>https://www.makingsoftware.com/</guid>
-            <pubDate>Thu, 17 Jul 2025 05:39:45 GMT</pubDate>
-            <description><![CDATA[A reference manual for people who design and build software.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Hollow Men of Hims]]></title>
-            <link>https://www.alexkesin.com/p/the-hollow-men-of-hims</link>
-            <guid>https://www.alexkesin.com/p/the-hollow-men-of-hims</guid>
-            <pubDate>Thu, 17 Jul 2025 05:34:36 GMT</pubDate>
-            <description><![CDATA[An admittedly partial–but deeply troubling–case against America's most brazen medical grift, involving Chinese knockoffs, subscription traps, and prescription gas station sex pills.]]></description>
         </item>
     </channel>
 </rss>
