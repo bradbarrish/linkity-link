@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 23 Aug 2025 12:44:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Aug 2025 18:30:11 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[The Normal Life of Earl Sweatshirt]]></title>
+            <link>https://www.ssense.com/en-us/editorial/music/earl-sweatshirt-live-laugh-love</link>
+            <guid>https://www.ssense.com/en-us/editorial/music/earl-sweatshirt-live-laugh-love</guid>
+            <pubDate>Sat, 23 Aug 2025 18:02:18 GMT</pubDate>
+            <description><![CDATA[A long, intimate conversation about fatherhood, fascism, and his surprise new album ‘Live Laugh Love.’]]></description>
+        </item>
         <item>
             <title><![CDATA[Zvi has some good travel advice]]></title>
             <link>https://thezvi.wordpress.com/2025/08/15/spending-too-much-time-at-airports/</link>
@@ -350,13 +357,6 @@
             <guid>https://www.theverge.com/news/709556/delta-air-lines-ai-ticket-price-rollout</guid>
             <pubDate>Sun, 20 Jul 2025 00:26:45 GMT</pubDate>
             <description><![CDATA[And seeing “amazingly favorable” results (for them). I expect all airlines to follow them. TIHI.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[One of my favorite services launches Podcast Magic]]></title>
-            <link>https://sublime.app/card/podcast-magic-is-the-simplest-way-to-capture-insig</link>
-            <guid>https://sublime.app/card/podcast-magic-is-the-simplest-way-to-capture-insig</guid>
-            <pubDate>Sun, 20 Jul 2025 00:22:04 GMT</pubDate>
-            <description><![CDATA[It's the simplest way to capture insight from podcasts. And you also check out Sublime too.]]></description>
         </item>
     </channel>
 </rss>
