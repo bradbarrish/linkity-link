@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Aug 2025 01:58:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Aug 2025 06:37:26 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[We must build AI for people; not to be a person]]></title>
+            <link>https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming</link>
+            <guid>https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming</guid>
+            <pubDate>Mon, 25 Aug 2025 04:03:37 GMT</pubDate>
+            <description><![CDATA[⁠⁠Consciousness is a critical foundation for our moral and legal rights. So far, civilization has decided that humans have special rights and privileges.⁠]]></description>
+        </item>
         <item>
             <title><![CDATA[The sovereign individual and the paradox of the digital age]]></title>
             <link>https://aeon.co/essays/the-sovereign-individual-and-the-paradox-of-the-digital-age</link>
@@ -350,13 +357,6 @@
             <guid>https://www.hathitrust.org/</guid>
             <pubDate>Sun, 20 Jul 2025 01:45:30 GMT</pubDate>
             <description><![CDATA[Millions of books online]]></description>
-        </item>
-        <item>
-            <title><![CDATA[How to run an LLM on your laptop]]></title>
-            <link>https://www.technologyreview.com/2025/07/17/1120391/how-to-run-an-llm-on-your-laptop/</link>
-            <guid>https://www.technologyreview.com/2025/07/17/1120391/how-to-run-an-llm-on-your-laptop/</guid>
-            <pubDate>Sun, 20 Jul 2025 00:55:10 GMT</pubDate>
-            <description><![CDATA[This is handy. It’s now possible to run useful models from the safety and comfort of your own computer. Here’s how.]]></description>
         </item>
     </channel>
 </rss>
