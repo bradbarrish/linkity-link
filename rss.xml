@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 24 Aug 2025 18:31:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Aug 2025 01:58:37 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[The sovereign individual and the paradox of the digital age]]></title>
+            <link>https://aeon.co/essays/the-sovereign-individual-and-the-paradox-of-the-digital-age</link>
+            <guid>https://aeon.co/essays/the-sovereign-individual-and-the-paradox-of-the-digital-age</guid>
+            <pubDate>Sun, 24 Aug 2025 19:21:55 GMT</pubDate>
+            <description><![CDATA[Data has created a new and paradoxical social order: the promise of emancipation is made possible by classifying everything.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How churches use data and AI]]></title>
+            <link>https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/</link>
+            <guid>https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/</guid>
+            <pubDate>Sun, 24 Aug 2025 19:20:45 GMT</pubDate>
+            <description><![CDATA[Spiritual care and technology are converging across the country, reshaping the theology of trust.]]></description>
+        </item>
         <item>
             <title><![CDATA[The Normal Life of Earl Sweatshirt]]></title>
             <link>https://www.ssense.com/en-us/editorial/music/earl-sweatshirt-live-laugh-love</link>
@@ -343,20 +357,6 @@
             <guid>https://www.technologyreview.com/2025/07/17/1120391/how-to-run-an-llm-on-your-laptop/</guid>
             <pubDate>Sun, 20 Jul 2025 00:55:10 GMT</pubDate>
             <description><![CDATA[This is handy. It’s now possible to run useful models from the safety and comfort of your own computer. Here’s how.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[This Is What A.I. Is Doing to Students.]]></title>
-            <link>https://www.nytimes.com/2025/07/18/opinion/ai-chatgpt-school.html</link>
-            <guid>https://www.nytimes.com/2025/07/18/opinion/ai-chatgpt-school.html</guid>
-            <pubDate>Sun, 20 Jul 2025 00:52:40 GMT</pubDate>
-            <description><![CDATA[We need to reckon with what ChatGPT is doing to the classroom and to human expression.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Delta Air Lines is using AI to set the maximum price you’re willing to pay]]></title>
-            <link>https://www.theverge.com/news/709556/delta-air-lines-ai-ticket-price-rollout</link>
-            <guid>https://www.theverge.com/news/709556/delta-air-lines-ai-ticket-price-rollout</guid>
-            <pubDate>Sun, 20 Jul 2025 00:26:45 GMT</pubDate>
-            <description><![CDATA[And seeing “amazingly favorable” results (for them). I expect all airlines to follow them. TIHI.]]></description>
         </item>
     </channel>
 </rss>
