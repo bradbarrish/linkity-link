@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Aug 2025 18:34:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 01:54:47 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[MacOS 26 Tahoe’s Dead Canary Utility App Icons]]></title>
+            <link>https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons</link>
+            <guid>https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons</guid>
+            <pubDate>Tue, 26 Aug 2025 00:32:12 GMT</pubDate>
+            <description><![CDATA[Absolutely scathing. These are the not the work of carpenters who care about the backs of the cabinets.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Bounce is a new cross-protocol migration tool]]></title>
+            <link>https://blog.anew.social/bounce-a-cross-protocol-migration-tool/?ref=a-new-social-newsletter</link>
+            <guid>https://blog.anew.social/bounce-a-cross-protocol-migration-tool/?ref=a-new-social-newsletter</guid>
+            <pubDate>Mon, 25 Aug 2025 19:52:26 GMT</pubDate>
+            <description><![CDATA[Cool to see this new tool that uses Bridgy Fed to help migrate your social graph between Mastodon and Bluesky.]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome to "Scamlexity"]]></title>
             <link>https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed</link>
@@ -343,20 +357,6 @@
             <guid>https://seths.blog/2025/07/65-thoughts/</guid>
             <pubDate>Sun, 20 Jul 2025 22:22:33 GMT</pubDate>
             <description><![CDATA[65 notes full of wisdom from Seth Godin.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[emojitracker is BACK]]></title>
-            <link>https://emojitracker.com/?ref=blog.emojipedia.org</link>
-            <guid>https://emojitracker.com/?ref=blog.emojipedia.org</guid>
-            <pubDate>Sun, 20 Jul 2025 18:44:39 GMT</pubDate>
-            <description><![CDATA[real-time emoji analysis powered by Emojipedia’s global user base]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Folio is a replacement for Pocket]]></title>
-            <link>https://savewithfolio.com/</link>
-            <guid>https://savewithfolio.com/</guid>
-            <pubDate>Sun, 20 Jul 2025 05:30:32 GMT</pubDate>
-            <description><![CDATA[It was created by Pocket's former Head of Product. It's billed as a beautiful and simple read later app focused on helping you enjoy the articles and content you collect.]]></description>
         </item>
     </channel>
 </rss>
