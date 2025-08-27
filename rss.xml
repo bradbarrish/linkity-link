@@ -5,9 +5,44 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 27 Aug 2025 12:48:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 18:31:44 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Pinterest's Fall Trend Report]]></title>
+            <link>https://newsroom.pinterest.com/news/the-2025-pinterest-fall-trend-report/</link>
+            <guid>https://newsroom.pinterest.com/news/the-2025-pinterest-fall-trend-report/</guid>
+            <pubDate>Wed, 27 Aug 2025 16:06:51 GMT</pubDate>
+            <description><![CDATA[This fall, Gen Z is driving a powerful shift toward thrifting and sustainable shopping, making secondhand style not only smart, but stylish.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Scott Alexander on AI psychosis]]></title>
+            <link>https://www.astralcodexten.com/p/in-search-of-ai-psychosis</link>
+            <guid>https://www.astralcodexten.com/p/in-search-of-ai-psychosis</guid>
+            <pubDate>Wed, 27 Aug 2025 15:57:41 GMT</pubDate>
+            <description><![CDATA[Folie a deux ex machina]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The GenAI Divide (PDF)]]></title>
+            <link>https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</link>
+            <guid>https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</guid>
+            <pubDate>Wed, 27 Aug 2025 15:54:00 GMT</pubDate>
+            <description><![CDATA[An interesting paper from MIT discussing the state of AI in Business from July 2025]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Unfuck Email]]></title>
+            <link>https://unfuck.email/</link>
+            <guid>https://unfuck.email/</guid>
+            <pubDate>Wed, 27 Aug 2025 15:46:45 GMT</pubDate>
+            <description><![CDATA[I commend the effort and the name of this project. If my filters weren't so complex, I might be inclined to try this.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Byte - a visual archive]]></title>
+            <link>https://byte.tsundoku.io/</link>
+            <guid>https://byte.tsundoku.io/</guid>
+            <pubDate>Wed, 27 Aug 2025 15:42:25 GMT</pubDate>
+            <description><![CDATA[An absolutely incredible archive. I read a lot of BYTE as a computer nerd kid.]]></description>
+        </item>
         <item>
             <title><![CDATA[MacOS 26 Tahoe’s Dead Canary Utility App Icons]]></title>
             <link>https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons</link>
@@ -322,41 +357,6 @@
             <guid>https://worksonmymachine.substack.com/p/nobody-knows-how-to-build-with-ai</guid>
             <pubDate>Tue, 22 Jul 2025 05:27:30 GMT</pubDate>
             <description><![CDATA[The future of software development might just be jazz. Everyone improvising. Nobody following the sheet music.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Polaroid celebrates the analogue way of life]]></title>
-            <link>https://www.creativereview.co.uk/polaroid-celebrates-the-analogue-way-of-life-in-flip-camera-campaign/</link>
-            <guid>https://www.creativereview.co.uk/polaroid-celebrates-the-analogue-way-of-life-in-flip-camera-campaign/</guid>
-            <pubDate>Tue, 22 Jul 2025 04:41:52 GMT</pubDate>
-            <description><![CDATA[I love everything about this campaign. Digital saturation and online fatigue forms the marketing strategy behind the pioneering camera brand’s latest campaign]]></description>
-        </item>
-        <item>
-            <title><![CDATA[the html review 04]]></title>
-            <link>https://thehtml.review/04/</link>
-            <guid>https://thehtml.review/04/</guid>
-            <pubDate>Tue, 22 Jul 2025 04:35:33 GMT</pubDate>
-            <description><![CDATA[I love everything about the html review. It is an annual journal of literature made to exist on the web.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Robots in China are riding the subway]]></title>
-            <link>https://www.popsci.com/technology/robots-in-china-subway-7-eleven-deliveries/</link>
-            <guid>https://www.popsci.com/technology/robots-in-china-subway-7-eleven-deliveries/</guid>
-            <pubDate>Mon, 21 Jul 2025 03:31:18 GMT</pubDate>
-            <description><![CDATA[They make 7-Eleven deliveries. It's a pilot, but my guess is that we'll see more of this, especially in large cities.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Conductor]]></title>
-            <link>https://conductor.build/</link>
-            <guid>https://conductor.build/</guid>
-            <pubDate>Sun, 20 Jul 2025 23:58:02 GMT</pubDate>
-            <description><![CDATA[A Mac app that lets you run a bunch of Claude Codes in Parallel, each with an isolated workspace.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Notes to myself]]></title>
-            <link>https://seths.blog/2025/07/65-thoughts/</link>
-            <guid>https://seths.blog/2025/07/65-thoughts/</guid>
-            <pubDate>Sun, 20 Jul 2025 22:22:33 GMT</pubDate>
-            <description><![CDATA[65 notes full of wisdom from Seth Godin.]]></description>
         </item>
     </channel>
 </rss>
