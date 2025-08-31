@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 30 Aug 2025 18:29:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Aug 2025 01:55:39 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Kill the Newsletter!]]></title>
+            <link>https://kill-the-newsletter.com/</link>
+            <guid>https://kill-the-newsletter.com/</guid>
+            <pubDate>Sun, 31 Aug 2025 00:47:35 GMT</pubDate>
+            <description><![CDATA[A nice tool to convert email newsletters into Atom feeds.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Yamanotes]]></title>
+            <link>https://yamanot.es/#current</link>
+            <guid>https://yamanot.es/#current</guid>
+            <pubDate>Sun, 31 Aug 2025 00:43:46 GMT</pubDate>
+            <description><![CDATA[Yamanotes is a lovely web-based music box for playing the departure melodies of each station.]]></description>
+        </item>
         <item>
             <title><![CDATA[URL Lengthener]]></title>
             <link>https://www.namitjain.com/tools/url-lengthener</link>
@@ -343,20 +357,6 @@
             <guid>https://nisheethvishnoi.substack.com/p/learning-is-slower-than-you-think</guid>
             <pubDate>Thu, 31 Jul 2025 22:59:31 GMT</pubDate>
             <description><![CDATA[What AI-optimized schools misunderstand about learning]]></description>
-        </item>
-        <item>
-            <title><![CDATA[VSCO launches a stand-alone iOS camera app called Capture]]></title>
-            <link>https://www.vsco.co/capture</link>
-            <guid>https://www.vsco.co/capture</guid>
-            <pubDate>Wed, 23 Jul 2025 04:23:20 GMT</pubDate>
-            <description><![CDATA[I haven't used VSCO for a long time, but looking forward to trying this out.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Someone created a second brain with NotebookLM]]></title>
-            <link>https://www.xda-developers.com/created-a-second-brain-with-notebooklm/</link>
-            <guid>https://www.xda-developers.com/created-a-second-brain-with-notebooklm/</guid>
-            <pubDate>Tue, 22 Jul 2025 05:30:19 GMT</pubDate>
-            <description><![CDATA[It's something I've considered and should probably just try doing it for a month and see what happens.]]></description>
         </item>
     </channel>
 </rss>
