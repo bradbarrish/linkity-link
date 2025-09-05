@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 05 Sep 2025 01:47:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Sep 2025 06:33:47 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Is ‘The Wizard of Oz’ at Sphere the Future of Cinema?]]></title>
+            <link>https://www.nytimes.com/2025/09/01/movies/wizard-of-oz-sphere-review.html</link>
+            <guid>https://www.nytimes.com/2025/09/01/movies/wizard-of-oz-sphere-review.html</guid>
+            <pubDate>Fri, 05 Sep 2025 04:54:39 GMT</pubDate>
+            <description><![CDATA[TIHI. I guess that's entertainment.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Are You Supposed To Get The COVID Vaccine Now?]]></title>
+            <link>https://defector.com/how-the-fuck-are-you-supposed-to-get-your-covid-vaccine</link>
+            <guid>https://defector.com/how-the-fuck-are-you-supposed-to-get-your-covid-vaccine</guid>
+            <pubDate>Fri, 05 Sep 2025 04:04:11 GMT</pubDate>
+            <description><![CDATA[JFC. This is going to be worse than trying to get a shot when they first became available.]]></description>
+        </item>
         <item>
             <title><![CDATA[Bear is now source-available]]></title>
             <link>https://herman.bearblog.dev/license/</link>
@@ -343,20 +357,6 @@
             <guid>https://www.htmlhobbyist.com/</guid>
             <pubDate>Thu, 31 Jul 2025 23:15:38 GMT</pubDate>
             <description><![CDATA[The web is for everyone]]></description>
-        </item>
-        <item>
-            <title><![CDATA[How the Solid Protocol Restores Digital Agency]]></title>
-            <link>https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html</link>
-            <guid>https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html</guid>
-            <pubDate>Thu, 31 Jul 2025 23:07:41 GMT</pubDate>
-            <description><![CDATA[Schneier on Sir Tim Berners Lee's solution to the current messy state of digital identity.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Welcome to the copyparty]]></title>
-            <link>https://github.com/9001/copyparty/</link>
-            <guid>https://github.com/9001/copyparty/</guid>
-            <pubDate>Thu, 31 Jul 2025 23:05:15 GMT</pubDate>
-            <description><![CDATA[Turn almost any device into a file server with resumable uploads/downloads using any web browser]]></description>
         </item>
     </channel>
 </rss>
