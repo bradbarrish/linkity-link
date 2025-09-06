@@ -5,9 +5,30 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Sep 2025 01:44:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Sep 2025 06:30:10 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[I’m a High Schooler. AI Is Demolishing My Education.]]></title>
+            <link>https://archive.is/2TeLa</link>
+            <guid>https://archive.is/2TeLa</guid>
+            <pubDate>Sat, 06 Sep 2025 06:24:05 GMT</pubDate>
+            <description><![CDATA[Feels like critical thinking in the classroon is nigh]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Absolutely Right!]]></title>
+            <link>https://absolutelyright.lol/</link>
+            <guid>https://absolutelyright.lol/</guid>
+            <pubDate>Sat, 06 Sep 2025 06:14:29 GMT</pubDate>
+            <description><![CDATA[IYKYK]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Old Robots Web Site]]></title>
+            <link>https://www.theoldrobots.com/index2.html</link>
+            <guid>https://www.theoldrobots.com/index2.html</guid>
+            <pubDate>Sat, 06 Sep 2025 06:13:01 GMT</pubDate>
+            <description><![CDATA[Robot history]]></description>
+        </item>
         <item>
             <title><![CDATA[Is ‘The Wizard of Oz’ at Sphere the Future of Cinema?]]></title>
             <link>https://www.nytimes.com/2025/09/01/movies/wizard-of-oz-sphere-review.html</link>
@@ -336,27 +357,6 @@
             <guid>https://www.manton.org/2025/08/01/microblog-now-free-for-teachers.html</guid>
             <pubDate>Fri, 01 Aug 2025 21:36:01 GMT</pubDate>
             <description><![CDATA[Classy. Makes me proud to have my blog on their platform.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[StrumTube does AI-driven chords analysis]]></title>
-            <link>https://www.strumtube.com/</link>
-            <guid>https://www.strumtube.com/</guid>
-            <pubDate>Thu, 31 Jul 2025 23:20:33 GMT</pubDate>
-            <description><![CDATA[Pretty cool way to learn chords! It will get taen down in 3...2...1...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Tim Bray's De-Google Project Update]]></title>
-            <link>https://www.tbray.org/ongoing/When/202x/2025/07/29/DeGoogling</link>
-            <guid>https://www.tbray.org/ongoing/When/202x/2025/07/29/DeGoogling</guid>
-            <pubDate>Thu, 31 Jul 2025 23:17:47 GMT</pubDate>
-            <description><![CDATA[Google, Apple and others make it insanely difficult to walk away. That's the way they want it.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The HTML Hobbyist]]></title>
-            <link>https://www.htmlhobbyist.com/</link>
-            <guid>https://www.htmlhobbyist.com/</guid>
-            <pubDate>Thu, 31 Jul 2025 23:15:38 GMT</pubDate>
-            <description><![CDATA[The web is for everyone]]></description>
         </item>
     </channel>
 </rss>
