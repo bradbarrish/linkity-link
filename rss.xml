@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 08 Sep 2025 01:53:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 06:35:39 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Tesco trials avocado ripeness scanners]]></title>
+            <link>https://www.bbc.com/news/articles/c3vzxxlxky4o</link>
+            <guid>https://www.bbc.com/news/articles/c3vzxxlxky4o</guid>
+            <pubDate>Mon, 08 Sep 2025 05:46:35 GMT</pubDate>
+            <description><![CDATA[So dumb. If you can't tell by squeezing it, you don't deserve it.]]></description>
+        </item>
         <item>
             <title><![CDATA[I’m a High Schooler. AI Is Demolishing My Education.]]></title>
             <link>https://archive.is/2TeLa</link>
@@ -350,13 +357,6 @@
             <guid>https://www.theguardian.com/commentisfree/2025/jul/01/im-not-ignoring-your-message-im-overwhelmed-by-the-tyranny-of-being-reachable?ref=DenseDiscovery-349</guid>
             <pubDate>Sat, 02 Aug 2025 03:40:58 GMT</pubDate>
             <description><![CDATA[I continue to believe that being reachable is for chumps and luxury means not being reachable]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Manton makes Micro.blog free for teachers and nurses]]></title>
-            <link>https://www.manton.org/2025/08/01/microblog-now-free-for-teachers.html</link>
-            <guid>https://www.manton.org/2025/08/01/microblog-now-free-for-teachers.html</guid>
-            <pubDate>Fri, 01 Aug 2025 21:36:01 GMT</pubDate>
-            <description><![CDATA[Classy. Makes me proud to have my blog on their platform.]]></description>
         </item>
     </channel>
 </rss>
