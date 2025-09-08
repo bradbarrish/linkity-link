@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 08 Sep 2025 12:50:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 18:33:10 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Haruki Murakami's 'Portrait in Jazz']]></title>
+            <link>https://joelcondemi.substack.com/p/haruki-murakamis-portrait-in-jazz</link>
+            <guid>https://joelcondemi.substack.com/p/haruki-murakamis-portrait-in-jazz</guid>
+            <pubDate>Mon, 08 Sep 2025 17:25:10 GMT</pubDate>
+            <description><![CDATA[Translating an essential work about jazz by Haruki Murakami and Makoto Wada]]></description>
+        </item>
         <item>
             <title><![CDATA[Tesco trials avocado ripeness scanners]]></title>
             <link>https://www.bbc.com/news/articles/c3vzxxlxky4o</link>
@@ -350,13 +357,6 @@
             <guid>https://www.theguardian.com/music/2025/jul/24/the-god-of-small-things-celebrating-arvo-part-at-90</guid>
             <pubDate>Sat, 02 Aug 2025 03:44:12 GMT</pubDate>
             <description><![CDATA[Celebrating the Estonian composer, Arvo Pärt at 90]]></description>
-        </item>
-        <item>
-            <title><![CDATA[I’m not ignoring your message – I’m overwhelmed by the tyranny of being reachable]]></title>
-            <link>https://www.theguardian.com/commentisfree/2025/jul/01/im-not-ignoring-your-message-im-overwhelmed-by-the-tyranny-of-being-reachable?ref=DenseDiscovery-349</link>
-            <guid>https://www.theguardian.com/commentisfree/2025/jul/01/im-not-ignoring-your-message-im-overwhelmed-by-the-tyranny-of-being-reachable?ref=DenseDiscovery-349</guid>
-            <pubDate>Sat, 02 Aug 2025 03:40:58 GMT</pubDate>
-            <description><![CDATA[I continue to believe that being reachable is for chumps and luxury means not being reachable]]></description>
         </item>
     </channel>
 </rss>
