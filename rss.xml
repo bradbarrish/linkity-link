@@ -5,9 +5,23 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Sep 2025 18:28:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Sep 2025 01:44:19 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[TikTok Won. Now Everything Is 60 Seconds.]]></title>
+            <link>https://www.thenexus.media/tiktok-won-now-everything-is-60-seconds/</link>
+            <guid>https://www.thenexus.media/tiktok-won-now-everything-is-60-seconds/</guid>
+            <pubDate>Fri, 12 Sep 2025 01:32:40 GMT</pubDate>
+            <description><![CDATA[As of September 2025, approximately 170 million Americans spend, on average, one hour every day in an app that is designed to maximize psychological grip. While Congress fixates on TikTok’s data collection usages, what hasn’t received enough attention is how the platform has successfully industrialized human attention itself.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What does ‘luxury’ mean today?]]></title>
+            <link>https://www.washingtonpost.com/style/fashion/2025/09/11/luxury-designer-fashion/</link>
+            <guid>https://www.washingtonpost.com/style/fashion/2025/09/11/luxury-designer-fashion/</guid>
+            <pubDate>Fri, 12 Sep 2025 01:24:49 GMT</pubDate>
+            <description><![CDATA[Dozens of members of the fashion industry what luxury means today.]]></description>
+        </item>
         <item>
             <title><![CDATA[Haruki Murakami's 'Portrait in Jazz']]></title>
             <link>https://joelcondemi.substack.com/p/haruki-murakamis-portrait-in-jazz</link>
@@ -343,20 +357,6 @@
             <guid>https://www.theguardian.com/us-news/2025/aug/03/ninety-laptops-millions-of-dollars-us-woman-jailed-for-role-in-north-korea-remote-work-scam</guid>
             <pubDate>Mon, 04 Aug 2025 05:10:53 GMT</pubDate>
             <description><![CDATA[A absolutely bonkers story about a woman involved in identity fraud that amassed millions to allegedly aid nuclear weapons program. WTF?]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Future is NOT Self-Hosted]]></title>
-            <link>https://www.drewlyton.com/story/the-future-is-not-self-hosted/</link>
-            <guid>https://www.drewlyton.com/story/the-future-is-not-self-hosted/</guid>
-            <pubDate>Mon, 04 Aug 2025 05:03:57 GMT</pubDate>
-            <description><![CDATA[In a world where corporations have detached buying from owning, one man attempts to do something radical: build his own cloud.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The god of small things]]></title>
-            <link>https://www.theguardian.com/music/2025/jul/24/the-god-of-small-things-celebrating-arvo-part-at-90</link>
-            <guid>https://www.theguardian.com/music/2025/jul/24/the-god-of-small-things-celebrating-arvo-part-at-90</guid>
-            <pubDate>Sat, 02 Aug 2025 03:44:12 GMT</pubDate>
-            <description><![CDATA[Celebrating the Estonian composer, Arvo Pärt at 90]]></description>
         </item>
     </channel>
 </rss>
