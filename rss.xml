@@ -5,9 +5,30 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 13 Sep 2025 01:39:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Sep 2025 06:29:48 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Cal Newport On Charlie Kirk and Saving Civil Society]]></title>
+            <link>https://calnewport.com/on-charlie-kirk-and-saving-civil-society/</link>
+            <guid>https://calnewport.com/on-charlie-kirk-and-saving-civil-society/</guid>
+            <pubDate>Sat, 13 Sep 2025 05:15:23 GMT</pubDate>
+            <description><![CDATA[As usual, Cal articulates something with an prodigious level of clairty. It does feel as though we're past the point of being able to save civil society.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gabe Rivera's 20-year-old headline site, Techmeme, has never been hotter.]]></title>
+            <link>https://crazystupidtech.com/2025/09/08/at-20-techmeme-has-never-been-hotter/</link>
+            <guid>https://crazystupidtech.com/2025/09/08/at-20-techmeme-has-never-been-hotter/</guid>
+            <pubDate>Sat, 13 Sep 2025 04:42:29 GMT</pubDate>
+            <description><![CDATA[Journalism is getting battered  now. But thanks to the AI boom, Gabe Rivera's  20-year-old headline site Techmeme has never been hotter.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Albania appoints AI-generated minister to avoid corruption]]></title>
+            <link>https://www.france24.com/en/live-news/20250911-albania-appoints-ai-generated-minister-to-avoid-corruption</link>
+            <guid>https://www.france24.com/en/live-news/20250911-albania-appoints-ai-generated-minister-to-avoid-corruption</guid>
+            <pubDate>Sat, 13 Sep 2025 04:33:56 GMT</pubDate>
+            <description><![CDATA[Albanian Prime Minister Edi Rama said Thursday he had appointed the world's first AI-generated government minister to oversee public tenders, promising its artificial intelligence would make it "corruption-free". Good luck with that.]]></description>
+        </item>
         <item>
             <title><![CDATA[Birth of the Wisdom Economy]]></title>
             <link>https://ecologiesofwisdom.substack.com/p/the-birth-of-the-wisdom-economy</link>
@@ -336,27 +357,6 @@
             <guid>https://lumo.proton.me/guest</guid>
             <pubDate>Wed, 06 Aug 2025 14:49:47 GMT</pubDate>
             <description><![CDATA[Proton made a zero-access encrypted AI assistantthat doesn't track or record your conversations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[What Kids Told Us About How to Get Them Off Their Phones]]></title>
-            <link>https://www.theatlantic.com/ideas/archive/2025/08/kids-smartphones-play-freedom/683742/</link>
-            <guid>https://www.theatlantic.com/ideas/archive/2025/08/kids-smartphones-play-freedom/683742/</guid>
-            <pubDate>Wed, 06 Aug 2025 14:41:14 GMT</pubDate>
-            <description><![CDATA[Children who were raised on screens need more freedom out in the real world.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[OpenAI Releases Open Models]]></title>
-            <link>https://openai.com/open-models/</link>
-            <guid>https://openai.com/open-models/</guid>
-            <pubDate>Tue, 05 Aug 2025 17:30:07 GMT</pubDate>
-            <description><![CDATA[Exciting! These are open-weight reasonaing models that you can download and customize.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[A.I. Is About to Solve Loneliness]]></title>
-            <link>https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem</link>
-            <guid>https://www.newyorker.com/magazine/2025/07/21/ai-is-about-to-solve-loneliness-thats-a-problem</guid>
-            <pubDate>Tue, 05 Aug 2025 14:23:15 GMT</pubDate>
-            <description><![CDATA[And that's not going to be a good thing. The discomfort of loneliness shapes us in ways we don’t recognize—and we may not like what we become without it.]]></description>
         </item>
     </channel>
 </rss>
