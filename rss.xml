@@ -5,9 +5,16 @@
         <link>https://linkitylink.lol</link>
         <description>A curated collection of interesting links by Brad Barrish</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 15 Sep 2025 01:54:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2025 06:36:02 GMT</lastBuildDate>
         <atom:link href="https://linkitylink.lol/rss.xml" rel="self" type="application/rss+xml" />
         
+        <item>
+            <title><![CDATA[Is “radical-left” violence really on the rise in America?]]></title>
+            <link>https://www.economist.com/graphic-detail/2025/09/12/is-radical-left-violence-really-on-the-rise-in-america</link>
+            <guid>https://www.economist.com/graphic-detail/2025/09/12/is-radical-left-violence-really-on-the-rise-in-america</guid>
+            <pubDate>Mon, 15 Sep 2025 05:21:39 GMT</pubDate>
+            <description><![CDATA[The answer is no; right-wing violence remains far more common in America, but you should still read the article.]]></description>
+        </item>
         <item>
             <title><![CDATA[Cal Newport On Charlie Kirk and Saving Civil Society]]></title>
             <link>https://calnewport.com/on-charlie-kirk-and-saving-civil-society/</link>
@@ -350,13 +357,6 @@
             <guid>https://fontsinuse.com/uses/35835/the-arcane-alphabets-of-black-sabbath</guid>
             <pubDate>Thu, 07 Aug 2025 04:34:31 GMT</pubDate>
             <description><![CDATA[To commemorate Ozzy, the best fonts site on the web take a deep dive into the obscure sources for the titling designs on Black Sabbath's early album covers.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Lumo is a privacy-first AI assistant]]></title>
-            <link>https://lumo.proton.me/guest</link>
-            <guid>https://lumo.proton.me/guest</guid>
-            <pubDate>Wed, 06 Aug 2025 14:49:47 GMT</pubDate>
-            <description><![CDATA[Proton made a zero-access encrypted AI assistantthat doesn't track or record your conversations.]]></description>
         </item>
     </channel>
 </rss>
